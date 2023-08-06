@@ -70,6 +70,7 @@ body section {
 .Fotos-Index {
     width: 20%;
     margin: 10px;
+    border-radius: 5%;
 }
 
 .Imagenes-Index {
@@ -115,7 +116,7 @@ h1 {
 
 .Section-Nosotros {
     display: flex;
-    margin-bottom: 16px;
+    margin-top: -0.5rem;
 }
 
 p {
@@ -132,37 +133,41 @@ img {
     padding-left: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
+    border-radius: 10%;
 }
 
 /* Pagina Viajes */
 
 .Section-Viajes1 {
     display: flex;
-    padding-top: 4%;
-    margin-bottom: 4%;
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px orange ridge;
 }
 
 .Section-Viajes2 {
     display: flex;
-    padding-top: 4%;
-    margin-bottom: 4%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 4px orange ridge;
 }
 
 .Section-Viajes3 {
     display: flex;
-    padding-top: 4%;
-    margin-bottom: 4%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 4px orange ridge;
 }
 
 .Section-Viajes4 {
     display: flex;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    margin-bottom: 16px
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .FotoViajes {
-    width: 25%;
+width: 35%;
+height: 35%;
 }
 
 /* Pagina Mapas */
