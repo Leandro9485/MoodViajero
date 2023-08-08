@@ -234,3 +234,7 @@ Section iframe {
 #exampleFormControlTextarea1 {
     height: 20rem;
 }
+
+.Enviar {
+    margin-left: 90%;
+}
