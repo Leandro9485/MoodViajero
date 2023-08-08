@@ -101,6 +101,9 @@ footer p {
     background-color: silver;
     border: 1px solid black;
 }
+footer {
+    background-color: #FFF4E7;
+}
 
 /* Titulo principal de cada página */
 
@@ -219,7 +222,15 @@ Section iframe {
 
 /* Pagina Contacto */
 
-.Section-Contacto{
-    height: 300px;
-    margin-bottom: 16px
-}  
+.mb-3 {
+    background-color: #FFF4E7;
+    padding-left: 10rem;
+    padding-right: 20rem;
+}
+.form-control {
+    background-color: #FFF4E7;
+    height: 4rem;
+}
+#exampleFormControlTextarea1 {
+    height: 20rem;
+}
