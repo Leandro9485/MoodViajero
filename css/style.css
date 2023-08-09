@@ -1,240 +1,219 @@
-
-/* Header y color de body igual para todas las páginas */
-
 header {
-    background-color: blanchedalmond;
-    border-bottom: 1px solid rgb(209, 136, 0);
+  background-color: blanchedalmond;
+  border-bottom: 1px solid rgb(209, 136, 0);
 }
-
-.navbar navbar-expand-lg bg-body-tertiary {
-    background-color: blanchedalmond;
- }
-
-.container-fluid {
-    background-color: blanchedalmond;
+header .navbar navbar-expand-lg bg-body-tertiary {
+  background-color: blanchedalmond;
 }
-
-.navbar-brand {
-    width: 500px;
-    margin: 10px 60px;
-    padding-right: 100px;
+header .container-fluid {
+  background-color: blanchedalmond;
 }
-
-.navbar-collapse collapse show {
-    color: orange;
+header .navbar-brand {
+  width: 500px;
+  margin: 10px 60px;
+  padding-right: 100px;
 }
-
-#navbar-brand {
-    color: orange;
+header .navbar-collapse collapse show {
+  color: orange;
 }
-
+header #navbar-brand {
+  color: orange;
+}
 header nav ul li {
-    list-style-type: none;
-    display:inline;
-    margin: 5% 5% 5% 8%;
+  list-style-type: none;
+  display: inline;
+  margin: 5% 5% 5% 8%;
 }
-
 header nav ul li a {
-    color: orange;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    font-weight:lighter;
-    font-style:normal;
+  color: orange;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  font-style: normal;
 }
-
-header nav ul li a:hover {
-    background-color: rgba(255, 166, 0, 0.721);
-    border-radius: 8%;
+header nav ul li a :hover {
+  background-color: rgba(255, 166, 0, 0.721);
+  border-radius: 8%;
 }
-
-/* Index */
 
 #carouselExampleIndicators {
-    background-color: #FFF4E7;
-    margin: 0rem 6rem 0rem 6rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    display:flex;
-    justify-content: center;
+  background-color: #FFF4E7;
+  margin: 0rem 6rem 0rem 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .carousel-indicators {
-    height: 10%;
+  height: 10%;
 }
 
 body section {
-    background-color: #FFF4E7;
+  background-color: #FFF4E7;
 }
 
 .Fotos-Index {
-    width: 20%;
-    margin: 10px;
+  width: 20%;
+  margin: 10px;
 }
 
 .Imagenes-Index {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .Textos-Imagenes {
-    display:flex;
-    justify-content:space-between;
-    margin-bottom: 16px;
-    padding-left: 140px;
-    padding-right: 78px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-left: 140px;
+  padding-right: 78px;
 }
 
 section h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(0, 0, 0, 0.712);
-    font-size:medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.712);
+  font-size: medium;
 }
 
-/* Footer igual para todas las páginas */
-
-footer p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    padding: 1rem;
-    color: rgba(0, 0, 0, 0.712);
-    background-color: silver;
-    border: 1px solid black;
-}
 footer {
-    background-color: #FFF4E7;
+  background-color: #FFF4E7;
 }
-
-/* Titulo principal de cada página */
+footer p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.712);
+  background-color: silver;
+  border: 1px solid black;
+}
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(0, 0, 0, 0.712);
-    padding-left: 2%;
-    background-color: #FFF4E7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.712);
+  padding-left: 2%;
+  background-color: #FFF4E7;
 }
 
-/* Pagina Nosotros */
-
 .Section-Nosotros {
-    display: flex;
-    margin-top: -0.5rem;
+  display: flex;
+  margin-top: -0.5rem;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 7%;
-    margin: 1%;
-    text-align:center;
-    color: rgba(0, 0, 0, 0.712);
-    background-color: #FFF4E7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 7%;
+  margin: 1%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.712);
+  background-color: #FFF4E7;
 }
 
 img {
-    width: 40%;
-    padding-left: 1%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+  width: 40%;
+  padding-left: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .Nosotros {
-    border-radius: 15%;
+  border-radius: 15%;
 }
 
-/* Pagina Viajes */
-
 .Section-Viajes1 {
-    display: flex;
-    margin-top: -0.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 4px rgb(252, 214, 164) ridge;
+  display: flex;
+  margin-top: -0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 4px rgb(252, 214, 164) ridge;
 }
 
 .Section-Viajes2 {
-    display: flex;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    border-bottom: 4px rgb(252, 214, 164) ridge;
+  display: flex;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 4px rgb(252, 214, 164) ridge;
 }
 
 .Section-Viajes3 {
-    display: flex;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    border-bottom: 4px rgb(252, 214, 164) ridge;
+  display: flex;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 4px rgb(252, 214, 164) ridge;
 }
 
 .Section-Viajes4 {
-    display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .FotoViajes {
-    width: 35%;
-    height: 35%;
-    border-radius: 15%;
+  width: 35%;
+  height: 35%;
+  border-radius: 15%;
 }
 
-/* Pagina Mapas */
-
 .Mapa {
-    background-color: #FFF4E7;
-    border-bottom: 4px rgb(252, 214, 164) ridge;
+  background-color: #FFF4E7;
+  border-bottom: 4px rgb(252, 214, 164) ridge;
 }
 
 .FotoMapa {
-    margin-top: -0.5rem;
-    margin-bottom: 1rem;
-    width: 75rem;
-    height: 40rem;
-    position: relative;
-    left: 8rem;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  width: 75rem;
+  height: 40rem;
+  position: relative;
+  left: 8rem;
 }
 
 Section iframe {
-    padding-top: 2rem;
-    width: 35%;
+  padding-top: 2rem;
+  width: 35%;
 }
 
 .Section-Mapas1 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
 }
 
 .Section-TextoMapas1 {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 4px rgb(252, 214, 164) double;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px rgb(252, 214, 164) double;
 }
 
 .Section-Mapas2 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
 }
 
 .Section-TextoMapas2 {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
-/* Pagina Contacto */
 
 .mb-3 {
-    background-color: #FFF4E7;
-    padding-left: 10rem;
-    padding-right: 20rem;
+  background-color: #FFF4E7;
+  padding-left: 10rem;
+  padding-right: 20rem;
 }
+
 .form-control {
-    background-color: #FFF4E7;
-    height: 4rem;
+  background-color: #FFF4E7;
+  height: 4rem;
 }
+
 #exampleFormControlTextarea1 {
-    height: 20rem;
+  height: 20rem;
 }
 
 .Enviar {
-    margin-left: 90%;
+  margin-left: 90%;
 }
+
+/*# sourceMappingURL=style.css.map */

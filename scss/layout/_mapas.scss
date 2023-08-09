@@ -1,0 +1,35 @@
+.Mapa {
+    background-color: #FFF4E7;
+    border-bottom: 4px rgb(252, 214, 164) ridge;
+}
+.FotoMapa {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    width: 75rem;
+    height: 40rem;
+    position: relative;
+    left: 8rem;
+}
+Section iframe {
+    padding-top: 2rem;
+    width: 35%;
+}
+.Section-Mapas1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.Section-TextoMapas1 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 4px rgb(252, 214, 164) double;
+}
+.Section-Mapas2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+.Section-TextoMapas2 {
+    display: flex;
+    justify-content: space-around;
+}

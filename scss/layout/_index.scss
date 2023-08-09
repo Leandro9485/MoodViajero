@@ -1,0 +1,34 @@
+#carouselExampleIndicators {
+    background-color: #FFF4E7;
+    margin: 0rem 6rem 0rem 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display:flex;
+    justify-content: center;
+}
+.carousel-indicators {
+    height: 10%;
+}
+body section {
+    background-color: #FFF4E7;
+}
+.Fotos-Index {
+    width: 20%;
+    margin: 10px;
+}
+.Imagenes-Index {
+    display: flex;
+    justify-content: space-around;
+}
+.Textos-Imagenes {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 16px;
+    padding-left: 140px;
+    padding-right: 78px;
+}
+section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.712);
+    font-size:medium;
+}
